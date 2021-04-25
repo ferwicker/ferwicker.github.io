@@ -1,0 +1,31 @@
+nav {
+    background-color: #f4f2f0e8;
+    z-index: 99;
+    backdrop-filter: blur( 30.0px );
+}
+.navbar-brand {
+    width: 250px;
+}
+
+.nav-link {
+    color: #a22f1a;
+}
+
+.nav-text {
+    font-family: ErotiqueText-Regular;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nav-icon {
+    font-size: 24px;
+}
+
+.nav-link:hover {
+    color: #a22e1ac7;
+    transition: .3s ease;
+}
+
+.navbar-toggler {
+    color: #a22f1a;
+}
