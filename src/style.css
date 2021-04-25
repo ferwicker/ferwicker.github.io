@@ -1,0 +1,15 @@
+body {
+    background-color: #f4f2f0;
+}
+
+@font-face {
+	font-family: 'ErotiqueText-Regular';
+	src: url('./assets/erotique/erotique-text-regular.eot');
+	src: url('./assets/erotique/erotique-text-regular.eot?#iefix') format('embedded-opentype'),
+             url('./assets/erotique/erotique-text-regular.woff2') format('woff2'),
+	     url('./assets/erotique/erotique-text-regular.woff') format('woff'),
+	     url('./assets/erotique/erotique-text-regular.ttf') format('truetype'),
+	     url('./assets/erotique/erotique-text-regular.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

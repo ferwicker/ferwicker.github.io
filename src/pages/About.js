@@ -1,13 +1,42 @@
 import React, {useState, useEffect} from "react";
+import { Link } from "react-router-dom";
+import Col from "../components/Col";
+import Container from "../components/Container";
+import Row from "../components/Row";
+import selfie from '../assets/images/van-working.png';
+import './style.css';
 
 function About() {
 
     //logic goes here
 
     return (
-        <div>
-            about page
-        </div>
+        <Container>
+            <Row>
+                <Col size='md-6'>
+                    <div className='about-content justify-content-middle'>
+                        <h1 className='medium-headline'>
+                            About me
+                        </h1>
+                        <p>
+                            My name is Fer Wicker and I am a graphic and web designer 
+                            and full stack developer from Sydney.
+                        </p>
+                        <p>
+                            I have over 8 years’ experience in graphic design and I am 
+                            about to complete a 6 month bootcamp in full stack web development.
+                        </p>
+                        <div className='spacer-20'></div>
+                        <Link to='/portfolio' role='button' className='main-btn'>
+                            See my work
+                        </Link>
+                    </div>
+                </Col>
+                <Col size='md-6'>
+                    <img src={selfie} alt='about me selfie' className='about-img'></img>
+                </Col>
+            </Row>
+        </Container>
     );
 }
 
