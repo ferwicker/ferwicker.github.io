@@ -109,3 +109,18 @@ p a:hover {
     text-decoration: none;
     transition: .3s ease;
 }
+
+.h1-404 {
+    color: #a22f1a;
+    font-family: ErotiqueText-Regular;
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+
+.p-404 {
+    color: #575a3a;
+    font-family: Termina, sans-serif;
+    font-size: 40px; 
+    max-width: 800px;
+    text-align: center;
+}
