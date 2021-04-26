@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import ProjectRound from "../components/ProjectRound";
 import './style.css'
 import wave from '../assets/images/hero-wave.png'
 import cube from '../assets/images/cube-green.png'
+import ProjectsInfo from '../assets/ProjectsInfo'
 
 function Home() {
 
@@ -53,17 +55,18 @@ function Home() {
                     My name is Fer Wicker and I am a graphic and web designer 
                     and full stack developer from Sydney.
                 </p>
+                <div className='spacer-20'></div>
                 <Container>
                     <Row>
-                        <Col size='sm-4'>
-                            project 1
-                        </Col>
-                        <Col size='sm-4'>
-                            project 2
-                        </Col>
-                        <Col size='sm-4'>
-                            project 3
-                        </Col>
+                        {ProjectsInfo.map((project,index)=>(
+                            project.featured ?
+                                <Col size='sm-4'>
+                                    <ProjectRound 
+                                    name={project.name}
+                                    title={project.title}/>
+                                </Col>
+                            : ''
+                        ))}
                     </Row>
                 </Container>
                 <div className='spacer-20'></div>

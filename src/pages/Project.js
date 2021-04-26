@@ -1,4 +1,9 @@
 import React, {useState, useEffect} from "react";
+import Container from "../components/Container";
+import Row from "../components/Row";
+import Col from "../components/Col";
+import ProjectDetail from "../components/ProjectDetail"
+import './style.css'
 
 function Project() {
 
@@ -6,7 +11,7 @@ function Project() {
 
     return (
         <div>
-            project page
+            <ProjectDetail />
         </div>
     );
 }
