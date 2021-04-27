@@ -29,7 +29,7 @@ function Nav () {
                     <div className='d-flex'>
                     <a className="nav-link nav-icon fab fa-github fa-2x" href="https://github.com/ferwicker" target="_blank">
                     </a>
-                    <a className="nav-link nav-icon fas fa-file-download fa-2x" href="" target="_blank">
+                    <a className="nav-link nav-icon fas fa-file-download fa-2x" href="Fer Wicker Resume - March 2020.pdf" target="_blank">
                     </a>
                     </div>
                 </div>

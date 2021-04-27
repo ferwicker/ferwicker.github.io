@@ -22,7 +22,7 @@ function Contact() {
                     <p>Call: <a href='tel:61426404077'>+61 426 404 077</a></p>
                     <p>Get social:</p>
                     <div>
-                        <a aria-hidden="true" class="fas fa-file-download fa-2x social-contact" title="Download" href="" target="_blank"><span class="sr-only">Resume Download</span></a>
+                        <a aria-hidden="true" class="fas fa-file-download fa-2x social-contact" title="Download" href="Fer Wicker Resume - March 2020.pdf" target="_blank"><span class="sr-only">Resume Download</span></a>
                         <a aria-hidden="true" class="fab fa-github fa-2x social-contact" title="Github" href="https://github.com/ferwicker" target="_blank"><span class="sr-only">Github profile</span></a>
                         <a aria-hidden="true" class="fab fa-linkedin-in fa-2x social-contact" title="Linkedin" href="https://www.linkedin.com/in/ferwicker/" target="_blank"><span class="sr-only">Linkedin profile</span></a>
                         <a aria-hidden="true" class="fab fa-instagram fa-2x social-contact" title="Instagram" href="https://www.instagram.com/fer.wicker/" target="_blank"><span class="sr-only">Instagram profile</span></a>

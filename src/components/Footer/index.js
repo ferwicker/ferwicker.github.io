@@ -12,7 +12,7 @@ function Footer () {
                 </Link>
 
                     <div className="d-flex flex-row align-items-center">
-                        <a aria-hidden="true" className="fas fa-file-download fa-2x social-icon" title="Download resume" href="" target="_blank"><span className="sr-only">Download Resume</span></a>
+                        <a aria-hidden="true" className="fas fa-file-download fa-2x social-icon" title="Download resume" href="Fer Wicker Resume - March 2020.pdf" target="_blank"><span className="sr-only">Download Resume</span></a>
                         <a aria-hidden="true" className="fab fa-github fa-2x social-icon" title="Github" href="https://github.com/ferwicker" target="_blank"><span className="sr-only">Github profile</span></a>
                         <a aria-hidden="true" className="fab fa-linkedin-in fa-2x social-icon" title="Linkedin" href="https://www.linkedin.com/in/ferwicker/" target="_blank"><span className="sr-only">Linkedin profile</span></a>
                         <a aria-hidden="true" className="fab fa-instagram fa-2x social-icon" title="Instagram" href="https://www.instagram.com/fer.wicker/" target="_blank"><span className="sr-only">Instagram profile</span></a>
