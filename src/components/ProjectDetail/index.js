@@ -23,7 +23,7 @@ function ProjectDetail(props){
         <Container>
             <section className='home-section d-flex flex-column justify-content-center'>
                 <h1 className='big-erotique'>{project.title}</h1>
-                <p className='project-intro'>{project.intro}</p>
+                <p className='project-intro'>{project.shortIntro}</p>
                 <div className='d-flex'>
                     <a href={project.deployed} target='_blank' rel='noreferrer' className='main-btn'>Deployed project</a>
                     <div className='spacer-20'></div>
