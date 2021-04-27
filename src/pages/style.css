@@ -28,6 +28,7 @@ p a:hover {
     font-family: Termina, sans-serif;
     padding: 8px 18px;
     margin-top: 20px;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -123,4 +124,86 @@ p a:hover {
     font-size: 40px; 
     max-width: 800px;
     text-align: center;
+}
+
+/* Media queries */
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 768px) {
+    
+    main.wrapper {
+        padding-top: 75px;
+    }
+
+    .home-section {
+        padding-top: 60px;
+    }
+
+    .hero-intro {
+        font-size: 40px;
+    }
+
+    .hero-sub {
+        font-size: 36px;
+    }
+
+    .hero-image {
+        margin-top: 80px;
+    }
+
+    .cube-img {
+        margin-left: 15px;
+        margin-bottom: 40px;
+    }
+
+    .project-preview {
+        margin: 20px 0;
+    }
+
+    a.nav-link.nav-text {
+        padding: 20px 0;
+    }
+
+    .navbar {
+        background-color: #ece9e4;
+    }
+
+    .navbar-collapse {
+        padding-bottom: 30px;
+    }
+
+    .about-img {
+        margin-top: 40px;
+    }
+
+    .contact-img {
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    h1.big-erotique {
+        font-size: 64px;
+    }
+
+    p.project-intro {
+        font-size: 30px;
+    }
+
+    div.project-description {
+        padding: 0;
+    }
+
+    div .project-description div p {
+        font-size: 20px;
+    }
+
+    .secondary-screenshot {
+        margin-top: 40px;
+    }
+    
+    .p-404 {
+        font-size: 36px;
+    }
+
 }

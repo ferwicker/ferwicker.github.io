@@ -33,11 +33,11 @@ function ProjectDetail(props){
             </section>
             <section className='home-section'>
                 <h2 className='medium-headline'>technologies</h2>
-                <div className='d-flex'>
+                <div>
                     {//used ternary expression to fix issue with techs being undefined due to timing
                         techs ?
-                        techs.map((tech)=>(
-                            <span className='technology-name'>{tech}</span>
+                        techs.map((tech, index)=>(
+                            <span key={index} className='technology-name'>{tech} </span>
                         ))
                         : ''
                     }

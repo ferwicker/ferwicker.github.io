@@ -52,11 +52,13 @@ function Home() {
                 </Container>
             </section>
             <section className='home-section d-flex flex-column align-items-center justify-content-middle'>
-                <h2 className='medium-headline'>My work</h2>
-                <p>
-                    My name is Fer Wicker and I am a graphic and web designer 
-                    and full stack developer from Sydney.
-                </p>
+                <div style={{padding:20}}>
+                    <h2 className='medium-headline'>My work</h2>
+                    <p>
+                        My name is Fer Wicker and I am a graphic and web designer 
+                        and full stack developer from Sydney.
+                    </p>
+                </div>
                 <div className='spacer-20'></div>
                 <Container>
                     <Row>

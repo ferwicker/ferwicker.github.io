@@ -1,7 +1,7 @@
 const ProjectsInfo = [
 {
     name: 'teamspark',
-    title: 'TeamSpark⚡',
+    title: 'Team Spark⚡',
     deployed: 'https://ferwicker.com/team-spark/',
     repo: 'https://github.com/ferwicker/team-spark',
     screenshot: 'teamspark-screenshot.jpg',
