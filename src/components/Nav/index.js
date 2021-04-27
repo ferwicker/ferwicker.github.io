@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import "./style.css";
-import logo from '../../assets/images/ferwicker-logo.png'
+import logo from '../../assets/images/ferwicker-logo.svg'
 
 function Nav () {
     return (
