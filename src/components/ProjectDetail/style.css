@@ -1,0 +1,48 @@
+.big-erotique {
+    color: #a22f1a;
+    font-family: ErotiqueText-Regular;
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+
+.project-intro {
+    color: #575a3a;
+    font-family: Termina, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.project-highlight {
+    color: #575a3a;
+    font-family: Termina, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 80px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.technology-name {
+    color: #575a3a;
+    font-family: Termina, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.main-screenshot {
+    width: 100%;
+    margin: 80px 0 30px 0;
+}
+
+.secondary-screenshot {
+    width: 100%;
+}
+
+.project-description {
+    padding: 60px 20px 20px 0;
+}
+
+.project-description p{
+    font-size: 18px;
+}
