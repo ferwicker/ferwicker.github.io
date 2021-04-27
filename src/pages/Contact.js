@@ -8,6 +8,9 @@ import cone from '../assets/images/contact-img.png'
 function Contact() {
 
     //logic goes here
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []);
 
     return (
         <section className='container home-section'>

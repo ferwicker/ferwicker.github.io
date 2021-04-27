@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useState, useEffect}  from "react";
 import { Link } from "react-router-dom";
 import Container from "../components/Container";
 import Row from "../components/Row";
@@ -11,7 +11,9 @@ import ProjectsInfo from '../assets/ProjectsInfo'
 
 function Home() {
 
-    //logic goes here
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []);
 
     return (
         <div>

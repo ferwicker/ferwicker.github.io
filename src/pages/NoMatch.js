@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 function NoMatch() {
 
     //logic goes here
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []);
 
     return (
         <section className='home-section container d-flex flex-column justify-content-middle align-items-center '>

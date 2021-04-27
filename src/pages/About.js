@@ -9,6 +9,9 @@ import './style.css';
 function About() {
 
     //logic goes here
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []);
 
     return (
         <Container>
