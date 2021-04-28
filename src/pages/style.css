@@ -127,6 +127,14 @@ p a:hover {
     text-align: center;
 }
 
+.work-line {
+    text-align: center;
+}
+
+.contact-headline {
+    text-align: left;
+}
+
 /* Media queries */
 
 /* Medium devices (tablets, less than 992px) */
@@ -143,14 +151,17 @@ p a:hover {
 
     .hero-intro {
         font-size: 40px;
+        padding: 0 15px;
     }
 
     .hero-sub {
         font-size: 36px;
+        padding: 0 15px;
     }
 
     .hero-image {
         margin-top: 80px;
+        padding: 0 15px;
     }
 
     .cube-img {
@@ -205,6 +216,10 @@ p a:hover {
     
     .p-404 {
         font-size: 36px;
+    }
+
+    .contact-content {
+        padding: 0 15px;
     }
 
 }

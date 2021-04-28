@@ -54,7 +54,7 @@ function Home() {
             <section className='home-section d-flex flex-column align-items-center justify-content-middle'>
                 <div style={{padding:20}}>
                     <h2 className='medium-headline'>My work</h2>
-                    <p>
+                    <p className='work-line'>
                         View some of my recent development focused work.
                     </p>
                 </div>
