@@ -1,71 +1,48 @@
-# Getting Started with Create React App
+# Fer Wicker Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project presents my recent work as a web developer and designer in a cute and clean website that shows some of my style and personality. It was a fun and interesting project, updating the previous version of my portfolio.
+[Visit my portfolio.](https://ferwicker.github.io/)
 
-## Available Scripts
+## Table of contents
+  - [Motivation](#motivation)
+  - [Process](#process)
+  - [Built with](#built-with)
+  - [Features](#features)
+  - [Roadmap](#roadmap)
+  - [Credits](#credits)
 
-In the project directory, you can run:
+## Motivation
+Having an up to date and good looking portfolio is essential for all creatives and especially web developers. It is a fun project and a chance to feature your skills as a designer and developer in their best light. 
 
-### `npm start`
+![Portfolio hero](./readme-assets/ferwicker-portfolio.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Process
+The process of updating the portfolio started with a review of the content in the previous version. I decided to completely change the look and feel, taking some inspiration from the changing seasons. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The new look is cleaner with more muted colours and a couple cool fonts.
 
-### `npm test`
+This version of my portfolio uses React to create reusable components. This is taken advantage on the nav, footer and projects, and allows to make changes only once.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built with
+- HTML, CSS, Javascript
+- [React](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Adobe XD](https://www.adobe.com/au/products/xd.html) (prototyping)
 
-### `npm run build`
+## Features
+- Cool design
+- About me section
+- Downloadable Resume
+- Project pages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Roadmap
+Skills and projects are always evolving. I look forward to adding some subtle animation and micro interactions in the near future.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### [See deployed application](https://ferwicker.github.io/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![About me](./readme-assets/about-page.jpg)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# portfolio-v3
+## Credits
+- All icons from [Fontawesome](https://fontawesome.com/)
+- Using fonts from [Adobe Fonts](https://fonts.adobe.com/) and [YouWorkForThem]( http://ywft.us/217161bdc)
+- Graphics from [YouWorkForThem](http://ywft.us/2c91a88f0)
