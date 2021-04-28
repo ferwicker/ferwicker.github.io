@@ -55,8 +55,7 @@ function Home() {
                 <div style={{padding:20}}>
                     <h2 className='medium-headline'>My work</h2>
                     <p>
-                        My name is Fer Wicker and I am a graphic and web designer 
-                        and full stack developer from Sydney.
+                        View some of my recent development focused work.
                     </p>
                 </div>
                 <div className='spacer-20'></div>
