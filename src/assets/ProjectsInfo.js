@@ -1,5 +1,21 @@
 const ProjectsInfo = [
 {
+    name: 'infinitetbr',
+    title: 'Infinite TBR',
+    deployed: 'https://blooming-falls-68032.herokuapp.com/',
+    repo: 'https://github.com/ferwicker/books-journal',
+    screenshot: 'infinite-tbr-screenshot.jpg',
+    screenshot2: 'infinite-tbr-illustration.svg',
+    technologies: ['React', 'Javascript', 'Bootstrap', 'MongoDB', 'Passport'],
+    shortIntro: 'Infinite TBR is a web app that helps users manage their personal libraries, created with avid readers in mind. ',
+    intro: 'Infinite TBR is a web app that helps users manage their personal libraries. Created with avid readers in mind, the app aims to create a simple user friendly experience in a modern app.',
+    description: <div><p>As a lifelong reader, I have used book tracking apps for years, never finding a modern and user friendly experience that will have all the functionality that I, as a user, would need. I asked a large group of readers what they would like to see in their ideal reading app, and the result was the inspiration for Infinite TBR.</p>
+        <p>The app uses Passport and bcrypt to manage user authentication, and MongoDB to store informaton such as users, shelves and books. Users can search books, create shelves, save and delete books from their shelves. The database is set up in a way that will simplify adding additional features such as tags in the future.</p>
+        <p>Currently just a library management app, the future developments plan for this project include adding a social element to the experience. Where users can recommend books, post reviews and tag books to better help others find their next best read.</p>
+        </div>,
+    featured: true
+},
+{
     name: 'teamspark',
     title: 'Team Spark⚡',
     deployed: 'https://ferwicker.com/team-spark/',
@@ -47,7 +63,7 @@ const ProjectsInfo = [
     <p>This app is built using node.js, express, MySQL, with Handlebars as the templating language to render the database information, and front end javascript to link the functionality.</p>
     <p>Future developments will include the ability to delete burgers from the list and to move them back to the 'to devour' column.</p>
     </div>,
-    featured: true
+    featured: false
 },
 {
     name:'weather-dashboard',
